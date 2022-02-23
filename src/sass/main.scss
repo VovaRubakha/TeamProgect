@@ -4,9 +4,9 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './variables/colors';
+@import './utils/colors';
 
 @import './example';
-@import './footer';
-@import './header';
-@import './about';
+@import './layouts/footer';
+@import './layouts/header';
+@import './layouts/about';
