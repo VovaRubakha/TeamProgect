@@ -6,7 +6,9 @@
 // Стили для файла с примером HTML-фрагмента
 @import './utils/colors';
 
-@import './example';
-@import './layouts/footer';
 @import './layouts/header';
+@import './example';
+@import './layouts/hero';
+@import './layouts/footer';
+
 @import './layouts/about';
