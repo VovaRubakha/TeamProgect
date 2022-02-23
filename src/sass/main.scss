@@ -6,9 +6,10 @@
 // Стили для файла с примером HTML-фрагмента
 @import './utils/colors';
 
+@import './components/mobile-menu';
+@import './components/mobile-menu-modal';
+
 @import './layouts/header';
-@import './layouts/mobile-menu';
-@import './layouts/mobile-menu-modal';
 @import './layouts/hero';
 @import './layouts/products';
 @import './layouts/about';
