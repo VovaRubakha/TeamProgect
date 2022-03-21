@@ -1,23 +1,29 @@
 :root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
-  --secondary-background-color: #f5f4fa;
-  --footer-backgroud-color: #2f303a;
-  --primary-black-color: #000000;
-  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --primary-white: #ffffff;
+  --primary-black: #000000;
+  --primary-text: #d41443;
+  --secondary-text: #907e82;
+  --accent: #c7133e;
+  --secondary-color: #ffa5ba;
+  --bg-brown: #f0d1a5;
+  --bg-green: #c2e297;
+  --bg-pink: #fff5f6;
+  --modal: #e17992;
+  --slider-bg: #e1e1e1;
 }
 
 $colors: (
-  'text-primary': #757575,
-  'text-title': #212121,
-  'accent': #2196f3,
   'primary-white': #ffffff,
-  'bg-secondary': #f5f4fa,
-  'footer-backgroud': #2f303a,
   'primary-black': #000000,
-  'footer-contacts': rgba(255, 255, 255, 0.6),
+  'primary-text': #d41443,
+  'secondary-text': #907e82,
+  'accent': #c7133e,
+  'secondary-color': #ffa5ba,
+  'bg-brown': #f0d1a5,
+  'bg-green': #c2e297,
+  'bg-pink': #fff5f6,
+  'modal': #e17992,
+  'slider-bg': #e1e1e1,
 );
 
 @function getColor($key) {
