@@ -7,25 +7,27 @@
   --secondary-color: #ffa5ba;
   --bg-brown: #f0d1a5;
   --bg-green: #c2e297;
-  --bg-pink: #fff5f6;
+  --bg-pink: #ffb8ca;
+  --primary-bg-pink: #fff5f6;
   --modal: #e17992;
-  --slider-bg: #e1e1e1;
+  --slider-bg: #fafafa;
+  --pagination: #d9d9d9;
 }
 
-$colors: (
-  'primary-white': #ffffff,
-  'primary-black': #000000,
-  'primary-text': #d41443,
-  'secondary-text': #907e82,
-  'accent': #c7133e,
-  'secondary-color': #ffa5ba,
-  'bg-brown': #f0d1a5,
-  'bg-green': #c2e297,
-  'bg-pink': #fff5f6,
-  'modal': #e17992,
-  'slider-bg': #e1e1e1,
-);
+// $colors: (
+//   'primary-white': #ffffff,
+//   'primary-black': #000000,
+//   'primary-text': #d41443,
+//   'secondary-text': #907e82,
+//   'accent': #c7133e,
+//   'secondary-color': #ffa5ba,
+//   'bg-brown': #f0d1a5,
+//   'bg-green': #c2e297,
+//   'bg-pink': #fff5f6,
+//   'modal': #e17992,
+//   'slider-bg': #e1e1e1,
+// );
 
-@function getColor($key) {
-  @return map-get($colors, $key);
-}
+// @function getColor($key) {
+//   @return map-get($colors, $key);
+// }
