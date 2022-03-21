@@ -8,6 +8,8 @@
 
 @import './utils/colors';
 
+@import './components/container';
+@import './components/logo';
 @import './components/mobile-menu';
 @import './components/mobile-menu-modal';
 
@@ -19,7 +21,6 @@
 @import './layouts/gallery';
 @import './layouts/customer-reviews';
 @import './layouts/contacts';
-@import './example';
 @import './layouts/footer';
 
 
