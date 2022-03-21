@@ -1,0 +1,82 @@
+.products {
+  padding-top: 121px;
+  padding-bottom: 98px;
+  background-color: #ffffff;
+
+  &__label {
+    margin-bottom: 15px;
+    font-family: 'Titan One', Aileron, Comfortaa, sans-serif;
+    font-size: 18px;
+    line-height: 1.16;
+    text-align: center;
+    color: #ffa5ba;
+  }
+
+  &__title {
+    margin-bottom: 144px;
+    font-family: 'Titan One', Aileron, Comfortaa, sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #d41443;
+  }
+}
+
+.products-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 40px 40px 40px;
+    max-width: 280px;
+    //height: 485px;
+    background-color: #ffb8ca;
+    border-radius: 24px;
+  }
+
+  &__item--orange {
+    background-color: #f0d1a5;
+  }
+
+  &__item--green {
+    background-color: #c2e297;
+  }
+
+  &__item + &__item {
+    margin-top: 130px;
+  }
+
+  &__title {
+    font-family: 'Titan One', Aileron, Comfortaa, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #ffffff;
+  }
+
+  &__btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 44px;
+    border: transparent;
+  }
+}
