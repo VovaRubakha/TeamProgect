@@ -240,7 +240,8 @@
     color: var(--primary-white);
     background-color: var(--primary-text);
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: var(--accent);
     }
     @media screen and (min-width: 768px) {
