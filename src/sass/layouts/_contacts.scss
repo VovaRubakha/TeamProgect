@@ -237,7 +237,8 @@
   border-radius: 22px;
   border: 0;
   cursor: pointer;
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: #ecebeb;
   }
 
@@ -253,7 +254,8 @@
   color: #ffffff;
   background-color: #d41342;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: #c7133e;
   }
   @media screen and (min-width: 768px) {
