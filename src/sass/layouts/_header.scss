@@ -1,5 +1,5 @@
 .header {
-  background: #ffb8ca;
+  background: var(--bg-pink);
   position: relative;
 }
 
@@ -67,12 +67,12 @@
   line-height: 25px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #d41443;
+  color: var(--primary-text);
   text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 137px;
+  // display: inline-flex;
+  // align-items: center;
+  // justify-content: space-between;
+  // margin-bottom: 137px;
   // @media screen and (min-width: 768px) {
   // }
   @media screen and (min-width: 1280px) {
@@ -87,7 +87,7 @@
 .header__logo--icon {
   margin-right: 17px;
 }
-.header__taitle {
+.header__title {
   display: block;
   width: 220px;
   padding-top: 193px;
@@ -96,7 +96,7 @@
   line-height: 1.15;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primary-white);
   @media screen and (min-width: 768px) {
     width: 162px;
     font-size: 22px;
@@ -114,14 +114,14 @@
     // padding-top: 80px;
   }
 }
-.header__taitle--emphasis {
+.header__title--emphasis {
   font-family: Titan One;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
   line-height: 0.97;
   text-transform: uppercase;
-  color: #d41443;
+  color: var(--primary-text);
 
   @media screen and (min-width: 768px) {
     font-size: 34px;
@@ -147,7 +147,7 @@
     font-style: normal;
     font-size: 8px;
     line-height: 1.5;
-    color: #ffffff;
+    color: var(--primary-white);
   }
   @media screen and (min-width: 1280px) {
     bottom: 57px;
@@ -202,7 +202,7 @@
   font-size: 28px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #d41443;
+  color: var(--primary-text);
   @media screen and (min-width: 1280px) {
     font-size: 46px;
     line-height: 1.15;
@@ -236,7 +236,7 @@
   font-weight: 400;
   font-size: 8px;
   line-height: 10px;
-  color: #ffffff;
+  color: var(--primary-white);
   @media screen and (min-width: 1280px) {
     font-size: 14px;
     line-height: 1.28;
@@ -256,14 +256,14 @@
   margin-right: 8px;
   width: 63px;
   height: 24px;
-  background: #d41443;
+  background: var(--primary-text);
   border-radius: 20px;
   border: none;
 
   font-family: DM Sans;
   font-size: 8px;
   line-height: 1.25;
-  color: #ffffff;
+  color: var(--primary-white);
   @media screen and (min-width: 1280px) {
     width: 104px;
     height: 40px;
@@ -271,28 +271,32 @@
     line-height: 1.28;
   }
   &:hover {
-    background-color: #c7133e;
+    background-color: var(--accent);
   }
 }
 .header__button--second {
   margin-top: 28px;
   width: 82px;
   height: 24px;
-  background: #ffffff;
+  background: var(--primary-white);
   border-radius: 20px;
   border: none;
 
   font-family: DM Sans;
   font-size: 8px;
   line-height: 1.25;
-  color: #d41443;
+  color: var(--primary-text);
   @media screen and (min-width: 1280px) {
     width: 138px;
     height: 40px;
     font-size: 14px;
     line-height: 1.28;
   }
+  //add var
   &:hover {
-    background-color: #ecebeb;
+    background-color: var(--hover-color);
+  }
+  &:focus {
+    background-color: var(--hover-color);
   }
 }
