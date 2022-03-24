@@ -155,11 +155,16 @@
   background-image: url(../images/desktop/home.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: var(--primary-white);
+  background-color: var(--swiper-theme-color);
   border-radius: 0%;
 }
 
 .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
+}
+.swiper-cube .swiper-cube-shadow {
+  &::before {
+    background: var(--hover-color);
+  }
 }
