@@ -1,32 +1,34 @@
 <header class="header">
   <div class="container header__container">
-    <nav class="header__menu" data-menu>
-      <button class="header__menu--button">
-        Buy now
-        <svg
-          class="btn-list__icon"
-          width="7"
-          height="10"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="m1.42 1 4.282 4L1.42 9"
-            stroke="#D41443"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-      </button>
-      <ul class="header__nav">
-        <li><a class="header__list" href="">Home</a></li>
-        <li><a class="header__list" href="">About us</a></li>
-        <li><a class="header__list" href="#How">How it&#39;s made?</a></li>
-        <li><a class="header__list" href="">Our products</a></li>
-        <li><a class="header__list" href="">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="header__backdrop is-hidden" data-modal>
+      <nav class="header__menu" data-menu>
+        <button class="header__menu--button">
+          Buy now
+          <svg
+            class="btn-list__icon"
+            width="7"
+            height="10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m1.42 1 4.282 4L1.42 9"
+              stroke="#D41443"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <ul class="header__nav">
+          <li><a class="header__list" href="">Home</a></li>
+          <li><a class="header__list" href="">About us</a></li>
+          <li><a class="header__list" href="#How">How it&#39;s made?</a></li>
+          <li><a class="header__list" href="">Our products</a></li>
+          <li><a class="header__list" href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <button type="button" class="header__button is-open" aria-expanded="false" data-header__button>
       <svg width="20" height="20" aria-label="mobil menu ">
         <use class="header__icon--cross" href="./images/icons.svg#icon-cross"></use>
@@ -51,6 +53,12 @@
         />
       </svg>
     </button>
+    <a href="./index.html" class="header__logo">
+      <svg width="50" height="50" class="header__logo--icon">
+        <use href="./images/icons.svg#icon-ice-cream"></use>
+      </svg>
+      icecream</a
+    >
     <!-- <a href="./hero.html">
         <img
           class="header__logo"
