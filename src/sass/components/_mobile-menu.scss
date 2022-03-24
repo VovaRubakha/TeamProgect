@@ -50,7 +50,7 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 1.28;
-  color: var(--primary-text);
+  color: var(--primary-white);
 
   padding-top: 10px;
   padding-bottom: 10px;
@@ -65,7 +65,8 @@
   // &:not(:last-child) {
   //   margin-right: 30px;
   // }
-  &:hover {
+  &:hover,
+  &:focus {
     color: var(--accent);
   }
 }
