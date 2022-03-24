@@ -1,19 +1,22 @@
 .advantages {
-  background-color: #fff5f6;
+  background-color: var(--primary-bg-pink);
   padding-top: 40px;
   padding-bottom: 100px;
 }
-
-.advantages__blok {
+.advantages__container {
   padding-left: 20px;
   padding-right: 70px;
   @media screen and (min-width: 768px) {
-    display: flex;
     padding-left: 35px;
   }
   @media screen and (min-width: 1280px) {
     padding-left: 115px;
     padding-right: 115px;
+  }
+}
+.advantages__blok {
+  @media screen and (min-width: 768px) {
+    display: flex;
   }
 }
 
@@ -99,12 +102,6 @@
       }
     }
   }
-  // &:nth-child(2)::before {
-  //   background-image: url("../images/pnj/icon1\ \(1\).png");
-  // }
-  // &:nth-child(3)::before {
-  //   background-image: url("../images/pnj/icon1\ \(2\).png");
-  // }
 }
 .advantages__title {
   list-style: none;
@@ -112,12 +109,12 @@
   font-family: Titan One;
   font-style: normal;
   font-weight: normal;
-  font-size: 34px;
-  line-height: 39px;
-  text-align: left;
+  font-size: 36px;
+  line-height: 1.13;
+  // text-align: left;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #d41443;
+  color: var(--primary-text);
 
   @media screen and (min-width: 768px) {
     font-size: 48px;
@@ -134,7 +131,7 @@
   font-weight: bold;
   font-size: 12px;
   line-height: 1.7;
-  color: #000000;
+  color: var(--primary-black);
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
