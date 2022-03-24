@@ -1,5 +1,5 @@
 .about {
-  background: #fff5f6;
+  background: var(--primary-bg-pink);
   padding-top: 125px;
   @media screen and (min-width: 768px) {
     padding-top: 130px;
@@ -42,20 +42,20 @@
   display: block;
   font-family: Titan One;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
 
   margin-bottom: 15px;
-  color: #ffa5ba;
+  color: var(--secondary-color);
 
   @media screen and (min-width: 768px) {
     font-size: 26px;
-    line-height: 30px;
+    line-height: 1.15;
   }
   @media screen and (min-width: 1280px) {
     font-size: 30px;
-    line-height: 34px;
+    line-height: 1.13;
   }
 }
 .about__title {
@@ -63,19 +63,19 @@
   font-style: normal;
   font-weight: normal;
   font-size: 34px;
-  line-height: 39px;
+  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   margin-bottom: 26px;
-  color: #d41443;
+  color: var(--primary-text);
   @media screen and (min-width: 768px) {
     font-size: 48px;
-    line-height: 55px;
+    line-height: 1.14;
   }
   @media screen and (min-width: 1280px) {
     font-size: 58px;
-    line-height: 66px;
+    line-height: 1.13;
   }
 }
 .about__content {
@@ -121,7 +121,7 @@
     // padding-right: 55px;
   }
 }
-.about__blok {
+.about__block {
   padding-left: 30px;
   padding-right: 30px;
   @media screen and (min-width: 768px) {
@@ -145,7 +145,7 @@
   text-align: left;
   margin-bottom: 30px;
 
-  color: #000000;
+  color: var(--primary-black);
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
@@ -165,7 +165,7 @@
   line-height: 1.62;
   text-align: left;
   margin-bottom: 17px;
-  color: #907e82;
+  color: var(--secondary-text);
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
@@ -179,11 +179,11 @@
     margin-bottom: 45px;
   }
 }
-.about__botton {
+.about__button {
   display: inline-flex;
   width: 176px;
   height: 44px;
-  background: #ffffff;
+  background: var(--primary-white);
   border-radius: 22px;
   border: none;
 
@@ -194,13 +194,16 @@
 
   justify-content: center;
   align-items: center;
-  color: #d41443;
+  color: var(--primary-text);
   cursor: pointer;
   &:hover {
-    background-color: #ecebeb;
+    background-color: var(--hover-color);
+  }
+  &:focus {
+    background-color: var(--hover-color);
   }
 }
-.about__botton__icon {
+.about__button__icon {
   margin-left: 12px;
 }
 //   margin-top: 28px;
