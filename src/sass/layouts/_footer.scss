@@ -60,19 +60,16 @@
     color: var(--primary-text);
     text-decoration: none;
     margin-left: 5px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include animation;
   }
   &__phone:hover,
   &__phone:focus {
     color: var(--bg-brown);
-    // text-shadow: 0px 8px 30px var(--bg-brown);
   }
 
   &__svg {
     fill: var(--secondary-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include animation;
   }
   &__link:hover svg,
   &__link:focus svg {

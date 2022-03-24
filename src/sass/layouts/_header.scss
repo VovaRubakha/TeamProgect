@@ -262,12 +262,15 @@
   font-size: 8px;
   line-height: 1.25;
   color: var(--primary-white);
+  @include animation;
+
   @media screen and (min-width: 1280px) {
     width: 104px;
     height: 40px;
     font-size: 14px;
     line-height: 1.28;
   }
+  &:focus,
   &:hover {
     background-color: var(--accent);
   }
@@ -284,17 +287,18 @@
   font-size: 8px;
   line-height: 1.25;
   color: var(--primary-text);
+  @include animation;
   @media screen and (min-width: 1280px) {
     width: 138px;
     height: 40px;
     font-size: 14px;
     line-height: 1.28;
   }
-  //add var
-  &:hover {
-    background-color: var(--hover-color);
-  }
+  &:hover,
   &:focus {
     background-color: var(--hover-color);
   }
+}
+.header__nav--menu {
+  position: relative;
 }

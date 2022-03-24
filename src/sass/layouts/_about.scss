@@ -196,9 +196,9 @@
   align-items: center;
   color: var(--primary-text);
   cursor: pointer;
-  &:hover {
-    background-color: var(--hover-color);
-  }
+  @include animation;
+
+  &:hover,
   &:focus {
     background-color: var(--hover-color);
   }
@@ -206,32 +206,3 @@
 .about__button__icon {
   margin-left: 12px;
 }
-//   margin-top: 28px;
-//   display: inline-flex;
-//   width: 176px;
-//   height: 44px;
-//   background: #ffffff;
-//   border-radius: 22px;
-//   border: none;
-
-//   font-family: DM Sans;
-//   font-weight: bold;
-//   font-size: 14px;
-//   line-height: 18px;
-
-//   justify-content: center;
-//   align-items: center;
-//   color: #d41443;
-
-//   &::after {
-//     position: center;
-//     content: '';
-//     width: 8px;
-//     height: 10px;
-//     margin-left: 10px;
-//     // background-image: url("../images/pnj/Vector\ 1.png");
-//     background-size: contain;
-//     background-repeat: no-repeat;
-//     align-items: center;
-//   }
-// }
