@@ -227,7 +227,7 @@
     border: 0;
     &:hover,
     &:focus {
-      background-color: #ecebeb;
+      background-color: var(--hover-color);
     }
     @media screen and (min-width: 768px) {
       width: 174px;

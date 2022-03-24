@@ -37,15 +37,13 @@
     }
   }
   @media screen and (min-width: 1280px) {
-    padding-left: 94px;
-    padding-top: 36px;
     height: 665px;
     background-image: url(../images/desktop/hero-icecream-1200@1x.png),
       url(../images/desktop/hero-girl-1200@1x.png), url(../images/desktop/Ellipse-1280@1x.png),
       url(../images/desktop/hero-milk-1200@1x.png);
     background-size: 236px, 293px, 538px, 188px;
     background-position: bottom 0px right 450px, bottom 0px right 110px, bottom 76px right 268px,
-      bottom 46px left 76px;
+      bottom 46px left 115px;
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
@@ -69,8 +67,8 @@
   text-transform: uppercase;
   color: var(--primary-text);
   text-decoration: none;
-  // display: inline-flex;
-  // align-items: center;
+  display: inline-flex;
+  align-items: center;
   // justify-content: space-between;
   // margin-bottom: 137px;
   // @media screen and (min-width: 768px) {
