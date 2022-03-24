@@ -1,1 +1,22 @@
-
+<section class="gallery">
+  <div class="container">
+    <picture class="gallery__image" >
+      <source
+        srcset="
+          ./images/desktop/colage-desktop-1x.jpg 1x,
+          ./images/desktop/colage-desktop-2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="./images/tablet/colage-tablet-1x.jpg 1x, ./images/tablet/colage-tablet-2x.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="./images/mobile/colage-mobile-1x.jpg 1x, ./images/mobile/colage-mobile-2x.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <img src="./images/contactsbg-1280px@1x.png" alt="Colage" />
+    </picture>
+  </div>
+</section>
